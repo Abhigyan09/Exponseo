@@ -79,6 +79,37 @@ cd ../frontend
 npm install
 npm start
 
+📦 Exponseo
+┣ 🟢 backend/ (Spring Boot)
+┃ ┣ 🟢 src/
+┃ ┃ ┣ 🟢 main/
+┃ ┃ ┃ ┣ 🟢 java/com/exponseo/
+┃ ┃ ┃ ┃ ┣ 📄 controller/
+┃ ┃ ┃ ┃ ┣ 📄 model/
+┃ ┃ ┃ ┃ ┣ 📄 repository/
+┃ ┃ ┃ ┃ ┣ 📄 service/
+┃ ┃ ┃ ┃ ┗ 📄 ExponseoApplication.java
+┃ ┃ ┃ ┗ 🟢 resources/
+┃ ┃ ┃   ┣ 📄 application.properties
+┃ ┃ ┃   ┗ 📄 data.sql
+┃ ┃ ┗ 🟢 test/
+┃ ┗ 📄 pom.xml
+┣ 🔵 frontend/ (React.js)
+┃ ┣ 🔵 public/
+┃ ┃ ┗ 📄 index.html
+┃ ┣ 🔵 src/
+┃ ┃ ┣ 📂 assets/
+┃ ┃ ┣ 📂 components/
+┃ ┃ ┣ 📂 pages/
+┃ ┃ ┣ 📂 services/
+┃ ┃ ┣ 📄 App.js
+┃ ┃ ┗ 📄 index.js
+┃ ┣ 📄 package.json
+┃ ┗ 📄 .env
+┣ 📄 README.md
+┣ 📄 LICENSE
+┗ 📄 .gitignore
+
 🤝 Contributing
 
 Fork repository
