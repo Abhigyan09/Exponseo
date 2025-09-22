@@ -74,3 +74,29 @@ git clone https://github.com/Abhigyan09/Exponseo.git
 cd Exponseo/backend
 # Configure application.properties with your MySQL credentials
 ./mvnw spring-boot:run
+
+cd ../frontend
+npm install
+npm start
+
+🤝 Contributing
+
+Fork repository
+
+Create a branch: git checkout -b feature/your-feature
+
+Commit your changes: git commit -m "Add new feature"
+
+Push to branch: git push origin feature/your-feature
+
+Create a Pull Request
+
+📄 License
+
+MIT License - LICENSE
+
+📞 Contact
+
+Email: abhigyan@example.com
+
+GitHub: @Abhigyan09
