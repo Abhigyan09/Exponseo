@@ -30,42 +30,6 @@ Built with modern technologies for speed, security, and scalability.
 
 ---
 
-# 🗂️ Exponseo Project Structure (Interactive Map)
-
-<details>
-<summary>📦 Exponseo (Full Project)</summary>
-
-┣ 🟢 backend/ (Spring Boot)
-┃ ┣ 🟢 src/
-┃ ┃ ┣ 🟢 main/
-┃ ┃ ┃ ┣ 🟢 java/com/exponseo/
-┃ ┃ ┃ ┃ ┣ 📄 controller/ # REST API endpoints
-┃ ┃ ┃ ┃ ┣ 📄 model/ # JPA entities / DB models
-┃ ┃ ┃ ┃ ┣ 📄 repository/ # Spring Data JPA repos
-┃ ┃ ┃ ┃ ┣ 📄 service/ # Business logic
-┃ ┃ ┃ ┃ ┗ 📄 ExponseoApplication.java
-┃ ┃ ┃ ┗ 🟢 resources/
-┃ ┃ ┃ ┣ 📄 application.properties # DB & server config
-┃ ┃ ┃ ┗ 📄 data.sql # Seed / initial data
-┃ ┃ ┗ 🟢 test/ # Unit & integration tests
-┃ ┗ 📄 pom.xml # Maven dependencies
-┣ 🔵 frontend/ (React.js)
-┃ ┣ 🔵 public/
-┃ ┃ ┗ 📄 index.html
-┃ ┣ 🔵 src/
-┃ ┃ ┣ 📂 assets/ # Images, icons, fonts
-┃ ┃ ┣ 📂 components/ # Reusable UI components
-┃ ┃ ┣ 📂 pages/ # Dashboard, Clients, Invoices
-┃ ┃ ┣ 📂 services/ # API calls
-┃ ┃ ┣ 📄 App.js
-┃ ┃ ┗ 📄 index.js
-┃ ┣ 📄 package.json
-┃ ┗ 📄 .env # API & environment config
-┣ 📄 README.md
-┣ 📄 LICENSE
-┗ 📄 .gitignore
-
-
 ## 🎬 Demo
 
 ![Exponseo Demo GIF](https://via.placeholder.com/800x400?text=Exponseo+Demo+GIF)
